@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+body {
+	overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+
+}
+
+.brandname {
+    font-size: 70px;
+    font-family: "Palatino", serif;
+    font-weight: 400;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.hero-subtitle {
+    font: 300 24px "Avenir Next", "Open Sans",open-sans,sans-serif;
+    margin-bottom: 60px;
+    color: black;
+}
+
+.btn-hero {
+    color: white;
+    border-color: #3EDED9;
+    background-color: #3EDED9;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-hero:hover {
+    color: white;
+    border-color: #39CAC6;
+    background-color: #39CAC6;
+}
+
+.btn-hero:active {
+    color: white;
+    border-color: #39CAC6;
+    background-color: #39CAC6;
+}
+
+.btn-hero:focus {
+    color:white;
+    border-color: #39CAC6;
+    background-color: #39CAC6;
+}
+
+.section-heading {
+    font-family: "Open Sans",open-sans,sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+section {
+    padding: 30px;
+}
+
+#howitworks {
+    background-color: #3EDED9;
+    color: white;
+}
+
+#howitworks h4 {
+    font-weight: 200;
+}
+
+.how-number {
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.how-heading {
+    margin: 15px 0;
+    font-weight: 300;
+    font-family: "Open Sans",open-sans,sans-serif;
+    text-transform: uppercase;
+}
+
+#hero-email {
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+#signup-email {
+    width: 300px !important;
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+#signup {
+    background-color: #4A4A4A;
+}
+
+#signup .section-heading {
+    color: #3EDED9;
+}
+
+.white-square {
+    background-color: white;
+    padding: 50px;
+}
+
+.vision-text {
+    font-weight: 200;
+    color: #4A4A4A;
+    font-style: italic;
+    font-family: "Open Sans",open-sans,sans-serif;
+    vertical-align: middle;
+    margin-top: 250px;
+}
+
+.mission {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.vision-image {
+    padding: 20px 10px;
+    margin: 20px 10px;
+}
+
+.mobile-mockup {
+    height: 700px;
+}
