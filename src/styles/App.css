@@ -15,7 +15,7 @@ h4 {
 }
 
 .brandname {
-    font-size: 70px;
+    font-size: 80px;
     font-family: "Palatino", serif;
     font-weight: 400;
     color: black;
@@ -125,7 +125,10 @@ section {
 
 .white-square {
     background-color: white;
-    padding: 50px;
+    padding: 40px;
+    border: 10px solid #3EDED9;
+    margin-bottom: 30px;
+    margin-top: 80px;
 }
 
 .vision-text {
