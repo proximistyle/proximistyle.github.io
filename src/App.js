@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { PageHeader, Grid, Button, Row, Col, FormControl, FormGroup, Form } from 'react-bootstrap';
+import {Grid, Button, Row, Col, FormControl, FormGroup, Form } from 'react-bootstrap';
 import './styles/App.css';
 import Footer from './Footer.js'
+import Header from './Header.jsx'
 import mobileMockupPhoto from './images/iphone_app_mockup_search.png'
 
 export default class App extends Component {
@@ -9,23 +10,7 @@ export default class App extends Component {
     return (
       <div className="App">
 
-        <PageHeader className="hero">
-            <Grid>
-                <Row>
-                <Col className="white-square" md={6} mdOffset={3}>
-                <h1 className="brandname">Proximistyle</h1>
-                <p className="hero-subtitle">For any outfit, see which stores have it in stock, in your size, nearby.</p>
-                <Form>
-                <FormGroup>
-                  <FormControl type="text" bsSize="large" id="hero-email" placeholder="Enter your email address"/>
-                </FormGroup>
-                { ' ' }
-                <Button type="submit" className="btn-hero">Get Early Access</Button>
-                </Form>
-                </Col>
-                </Row>
-            </Grid>
-        </PageHeader>
+        <Header />
 
         <section id="howitworks">
           <Grid>
@@ -35,7 +20,7 @@ export default class App extends Component {
                   <h3 className="how-heading">find it</h3>
                   <p className="lead">Whether you’re looking for a grey winter coat, a pair of pink pumps
                     or a dress for the christmas party,
-                    <strong><i> Handle will show you which stores have it in stock, in your size, nearby.</i></strong> </p>
+                    <strong><i> Proximistyle will show you which stores have it in stock, in your size, nearby.</i></strong> </p>
 
                   <h1 className="how-number">2</h1>
                   <h3 className="how-heading">reserve it</h3>
@@ -47,7 +32,7 @@ export default class App extends Component {
               <Col md={4}>
                 <h1 className="how-number">3</h1>
                 <h3 className="how-heading">try it</h3>
-                <p className="lead">Handle will show you how to get to the store to try on the clothes you just reserved.</p>
+                <p className="lead">Proximistyle will show you how to get to the store to try on the clothes you just reserved.</p>
 
                 <h1 className="how-number">4</h1>
                 <h3 className="how-heading">buy it</h3>
