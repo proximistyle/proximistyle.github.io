@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { PageHeader, Grid, Button, Row, Col, FormControl, FormGroup, Form } from 'react-bootstrap';
 import './styles/App.css';
 import Footer from './Footer.js'
-import mobileMockupPhoto from './iphone_app_mockup_search.png'
+import mobileMockupPhoto from './images/iphone_app_mockup_search.png'
 
 export default class App extends Component {
   render() {
