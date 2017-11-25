@@ -1,0 +1,19 @@
+.response {
+  display: none;
+}
+
+#bottom-form {
+  position: absolute;
+  left: -5000px;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+}
+
+/* #mce-EMAIL {
+  border-radius: 0;
+  margin-bottom: 20px;
+} */

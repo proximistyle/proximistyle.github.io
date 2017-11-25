@@ -52,10 +52,6 @@ section {
     text-transform: uppercase;
 }
 
-#hero-email {
-    border-radius: 0;
-    margin-bottom: 20px;
-}
 
 #signup-email {
     width: 300px !important;
