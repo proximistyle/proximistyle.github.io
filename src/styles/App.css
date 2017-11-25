@@ -21,6 +21,18 @@ h4 {
     color: black;
 }
 
+@media (max-width: 480px) {
+    .brandname {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 980px) {
+    .brandname {
+        font-size: 70px;
+    }
+}
+
 .section-heading {
     font-family: "Open Sans",open-sans,sans-serif;
     margin-top: 10px;
@@ -52,7 +64,6 @@ section {
     text-transform: uppercase;
 }
 
-
 #signup-email {
     width: 300px !important;
     border-radius: 0;
@@ -65,25 +76,6 @@ section {
 
 #signup .section-heading {
     color: #3EDED9;
-}
-
-.vision-text {
-    font-weight: 200;
-    color: #4A4A4A;
-    font-style: italic;
-    font-family: "Open Sans",open-sans,sans-serif;
-    vertical-align: middle;
-    margin-top: 250px;
-}
-
-.mission {
-    font-style: italic;
-    font-weight: 700;
-}
-
-.vision-image {
-    padding: 20px 10px;
-    margin: 20px 10px;
 }
 
 .mobile-mockup {

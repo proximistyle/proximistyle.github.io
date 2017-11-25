@@ -13,7 +13,6 @@
   width: 49%;
 }
 
-/* #mce-EMAIL {
-  border-radius: 0;
-  margin-bottom: 20px;
-} */
+.inline-fields {
+  display: block;
+}
