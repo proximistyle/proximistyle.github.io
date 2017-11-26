@@ -9,29 +9,24 @@ export default class Footer extends Component {
             <Grid>
              <Row>
               <Col md={6}>
-                <span className="copyright">&copy; Proximistyle 2017</span>
+                <span className="copyright">&copy; 2017 Proximistyle </span>
               </Col>
               <Col md={6}>
                 <ul className="list-inline">
+
                   <li className="list-inline-item">
-                    <a href="#privacy">Privacy Policy</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#terms">Terms of Use</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="http://www.twitter.com">
-                      <i className="fa fa-twitter"></i>
+                    <a href="http://www.twitter.com/proximistyle" target="_blank" className="social-media-icon">
+                      <i className="fa fa-2x fa-twitter"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="http://www.facebook.com">
-                      <i className="fa fa-facebook"></i>
+                    <a href="http://www.facebook.com/proximistyle" target="_blank" className="social-media-icon">
+                      <i className="fa fa-2x fa-facebook"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="http://www.instagram.com">
-                      <i className="fa fa-instagram"></i>
+                    <a href="http://www.instagram.com/proximistyle" target="_blank" className="social-media-icon">
+                      <i className="fa fa-2x fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
