@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Grid, Button, Row, Col, FormControl, FormGroup, Form } from 'react-bootstrap';
+import {Grid, Button, Row, Col } from 'react-bootstrap';
 import './styles/App.css';
 import Footer from './Footer.js'
 import Header from './Header.jsx'

@@ -15,17 +15,17 @@ export default class Footer extends Component {
                 <ul className="list-inline">
 
                   <li className="list-inline-item">
-                    <a href="http://www.twitter.com/proximistyle" target="_blank" className="social-media-icon">
+                    <a href="http://www.twitter.com/proximistyle" target="_blank" rel="noopener noreferrer" className="social-media-icon">
                       <i className="fa fa-2x fa-twitter"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="http://www.facebook.com/proximistyle" target="_blank" className="social-media-icon">
+                    <a href="http://www.facebook.com/proximistyle" target="_blank" rel="noopener noreferrer" className="social-media-icon">
                       <i className="fa fa-2x fa-facebook"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="http://www.instagram.com/proximistyle" target="_blank" className="social-media-icon">
+                    <a href="http://www.instagram.com/proximistyle" target="_blank" rel="noopener noreferrer" className="social-media-icon">
                       <i className="fa fa-2x fa-instagram"></i>
                     </a>
                   </li>
