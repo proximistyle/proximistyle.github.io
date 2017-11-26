@@ -78,6 +78,12 @@ section {
     height: 700px;
 }
 
+@media (max-width: 400px) {
+    .mobile-mockup {
+        height: 550px;
+    }
+}
+
 .social-media-icon {
     color: #3EDED9
 }
