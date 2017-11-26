@@ -3,6 +3,7 @@ import {Grid, Button, Row, Col, FormControl, FormGroup, Form } from 'react-boots
 import './styles/App.css';
 import Footer from './Footer.js'
 import Header from './Header.jsx'
+import SignupInline from './SignupInline.jsx'
 import mobileMockupPhoto from './images/iphone_app_mockup_search.png'
 
 export default class App extends Component {
@@ -24,7 +25,7 @@ export default class App extends Component {
 
                   <h1 className="how-number">2</h1>
                   <h3 className="how-heading">reserve it</h3>
-                  <p className="lead">Reserve the items you want to try on.</p>
+                  <p className="lead">You can quickly reserve the items you like from within the app.</p>
               </Col>
                 <Col md={4}>
                 <img src={mobileMockupPhoto} className="mobile-mockup"/>
@@ -46,13 +47,7 @@ export default class App extends Component {
         <section id="signup">
             <Grid>
                <h2 className="section-heading">Don't Spend Your Time Looking For Things</h2>
-                <Form inline>
-                    <FormGroup>
-                        <FormControl type="text" bsSize="large" id="signup-email" placeholder="Enter your email address"/>
-                    </FormGroup>
-                    { ' ' }
-                    <Button type="submit" className="btn-hero">Get Early Access</Button>
-                </Form>
+                <SignupInline />
             </Grid>
         </section>
 

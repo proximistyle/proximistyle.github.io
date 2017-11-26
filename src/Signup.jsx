@@ -5,7 +5,7 @@ import './styles/Signup.css'
 export default class Signup extends Component {
 
   handleSubmit(event) {
-    window.gtag('event', 'sign_up', {'campaign': 'early_access'});
+    window.gtag('event', 'sign_up', {'campaign': 'early_access', 'form_location': 'top'});
     console.log("The sign up form has been submitted")
   }
 
