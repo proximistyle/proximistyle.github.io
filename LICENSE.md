@@ -1,1 +1,0 @@
-Copyright 2017 Proximistyle. All rights reserved. You may not copy or redistribute this code without prior approval from Proximistyle.
