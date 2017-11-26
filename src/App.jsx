@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Grid, Button, Row, Col } from 'react-bootstrap';
+import {Grid, Row, Col } from 'react-bootstrap';
 import './styles/App.css';
 import Footer from './Footer.js'
 import Header from './Header.jsx'
@@ -28,7 +28,7 @@ export default class App extends Component {
                   <p className="lead">You can quickly reserve the items you like from within the app.</p>
               </Col>
                 <Col md={4}>
-                <img src={mobileMockupPhoto} className="mobile-mockup"/>
+                <img src={mobileMockupPhoto} className="mobile-mockup" alt="A mockup of the phone app" />
                 </Col>
               <Col md={4}>
                 <h1 className="how-number">3</h1>
