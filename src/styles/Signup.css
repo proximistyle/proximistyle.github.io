@@ -16,3 +16,15 @@
 .inline-fields {
   display: block;
 }
+
+@media (max-width: 1200px) and (min-width: 980px) {
+  .inline {
+    width: 100%;
+  } 
+} 
+
+@media (max-width: 570px) {
+  .inline {
+    width: 100%;
+  } 
+} 
